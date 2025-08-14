@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canine & Co. NE - Dog Walking & Pet Care in Gateshead</title>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f5f0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #5a6e4f; /* deep muted green */
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        header img {
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        nav {
+            background: #3d4b34; /* darker green */
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #3d4b34;
+        }
+        .services, .contact {
+            margin-top: 30px;
+        }
+        .service-box {
+            background: #e7eadf; /* pale green background */
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 6px solid #5a6e4f;
+        }
+        footer {
+            background: #3d4b34;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+        .btn {
+            background: #5a6e4f;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #4c5d42;
+        }
+        /* Contact icon styles */
+        #contact i {
+            color: #5a6e4f;
+            margin-right: 8px;
+            min-width: 20px;
+            text-align: center;
+        }
+        #contact p {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+        }
+        #contact a {
+            color: #3d4b34;
+            text-decoration: none;
+        }
+        #contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="Canine-Co-NE-logo.jpg" alt="Canine & Co. NE Logo">
+        <h1>Canine & Co. NE</h1>
+        <p>Happy Dogs, Happy Owners — Serving the Gateshead Area</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service-box">
+                <h3>30-Minute Walk</h3>
+                <p>A brisk walk around the neighbourhood — perfect for keeping tails wagging.</p>
+                <p><strong>£12</strong></p>
+            </div>
+            <div class="service-box">
+                <h3>1-Hour Walk</h3>
+                <p>Longer countryside or park adventures for energetic pups who love exploring.</p>
+                <p><strong>£20</strong></p>
+            </div>
+            <div class="service-box">
+                <h3>Puppy Visits</h3>
+                <p>Short visits for playtime, feeding, and a quick trip to the garden for toilet breaks.</p>
+                <p><strong>£8</strong></p>
+            </div>
+            <div class="service-box">
+                <h3>Home Visits for Pets</h3>
+                <p>Friendly drop-in visits for cats, rabbits, or other small pets — feeding, playtime, and companionship while you’re away.</p>
+                <p><strong>£10</strong></p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:canineandco.uk@gmail.com">canineandco.uk@gmail.com</a>
+            </p>
+            <p>
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://wa.me/447904503195" target="_blank">07904 503195</a>
+            </p>
+            <p>
+                <i class="fab fa-facebook"></i>
+                <a href="https://www.facebook.com/profile.php?id=61579033084021&sk=about" target="_blank">Find us on Facebook</a>
+            </p>
+            <a href="mailto:canineandco.uk@gmail.com" class="btn">
+                <i class="fas fa-paw"></i> Book a Walk or Visit
+            </a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Canine & Co. NE - Dog Walking & Pet Care in Gateshead. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
